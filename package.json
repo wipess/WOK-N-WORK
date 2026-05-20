@@ -2,7 +2,7 @@
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://wipess.github.io/WOK-N-WORK"
+  "homepage": "https://wipess.github.io/WOK-N-WORK",
   "type": "module",
   "scripts": {
     "build": "vite build",

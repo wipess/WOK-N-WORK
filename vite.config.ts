@@ -24,6 +24,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/WOK-N-WORK/',
   resolve: {
     alias: {
       // Alias @ to the src directory

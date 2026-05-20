@@ -46,8 +46,8 @@ export function About({ translations }: AboutProps) {
           <div className="relative">
             <div className="absolute inset-0 bg-accent/20 rounded-lg blur-2xl"></div>
             <img
-              src="/src/imports/WOK.png"
-              alt="Команда Wok'n'work"
+              src={import.meta.env.BASE_URL + 'WOK.png'}
+              alt="logo"
               className="relative rounded-lg shadow-2xl border-2 border-accent/30 w-full"
             />
             <div className="absolute -bottom-4 -right-4 bg-primary text-white px-6 py-3 rounded-lg shadow-lg border-2 border-accent/50">
